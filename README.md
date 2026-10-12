@@ -12,7 +12,7 @@ This is the official PyTorch implementation of **CLAP: Cross-Layer Attention Pri
 
 ## Overview
 
-CLAP encodes sampled video frames and text with CLIP and optimizes a symmetric text-to-video/video-to-text contrastive objective. SAP and CLAA can be enabled independently. The implementation also provides optional ToMe, PAMR, and CLIPRefiner paths for visual token and spatial refinement.
+CLAP adapts a pretrained CLIP dual encoder for text-video retrieval with parameter-efficient tuning. It constructs a semantic affinity prior from CLS-patch relations and aggregates attention across visual Transformer layers, allowing the visual encoder to preserve both token-level semantics and cross-layer structure. The model is trained with a symmetric text-to-video and video-to-text contrastive objective.
 
 ## Usage
 
