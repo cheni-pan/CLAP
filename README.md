@@ -8,7 +8,7 @@ This is the official PyTorch implementation of **CLAP: Cross-Layer Attention Pri
 
 - introduce **SAP (Semantic Affinity Prior)** to convert CLS-patch affinities into a visual attention prior;
 - propose **CLAA (Cross-Layer Attention Aggregation)** to reuse attention maps from preceding visual Transformer blocks;
-- combine the priors with parameter-efficient LoRA adaptation and optional token merging.
+
 
 ## Overview
 
