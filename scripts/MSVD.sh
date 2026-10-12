@@ -113,7 +113,7 @@ PY
 mkdir -p "${OUTPUT_PATH}"
 cd "${PROJECT_DIR}"
 
-echo "Training TempMe-RES-refine on MSVD"
+echo "Training CLAP on MSVD"
 echo "  project: ${PROJECT_DIR}"
 echo "  data: ${DATA_PATH}"
 echo "  videos: ${VIDEO_PATH}"

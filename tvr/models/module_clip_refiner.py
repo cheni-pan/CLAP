@@ -28,7 +28,7 @@ class CLIPSpatialRefiner(nn.Module):
 
     The original CLIPRefiner repository included only method notes in this
     workspace, so this module ports the method's usable ingredients to
-    TempMe-RES: refine dense CLIP patch tokens, extract spatial correlations,
+    CLAP: refine dense CLIP patch tokens, extract spatial correlations,
     and expose them as a visual-centric attention prior.
     """
 

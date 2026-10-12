@@ -1,7 +1,7 @@
 DATA_PATH="${DATA_PATH:-/mnt/data/PZY/train/MUSE-main/train/}"
 OUTPUT_PATH="${OUTPUT_PATH:-log/MSRVTT}"
 PRETRAINED_PATH="${PRETRAINED_PATH:-/mnt/data/PZY/train/DGL-main/DGL-main/modules/pretrained}"
-INIT_MODEL="${INIT_MODEL:-/mnt/data/PZY/test/Res/TempMe-RES/log/MSRVTT/best.pth}"
+INIT_MODEL="${INIT_MODEL:-/mnt/data/PZY/test/Res/CLAP/log/MSRVTT/best.pth}"
 PYTHON_BIN="${PYTHON_BIN:-python3}"
 NPROC="${NPROC:-4}"
 

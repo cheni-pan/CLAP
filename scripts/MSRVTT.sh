@@ -6,7 +6,7 @@ PRETRAINED_PATH="${PRETRAINED_PATH:-/mnt/data/PZY/train/DGL-main/DGL-main/module
 PYTHON_BIN="${PYTHON_BIN:-python3}"
 NPROC="${NPROC:-4}"
 
-# Conservative ResCLIP defaults for TempMe-RES.
+# Conservative CLAP defaults.
 USE_CLAA="${USE_CLAA:-1}"
 USE_SAP="${USE_SAP:-1}"
 # Keep a full regular patch grid before the first frame merge when PAMR is enabled.

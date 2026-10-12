@@ -115,7 +115,7 @@ PY
 mkdir -p "${OUTPUT_PATH}"
 cd "${PROJECT_DIR}"
 
-echo "Inferring TempMe-RES-refine on MSVD test split"
+echo "Inferring CLAP on MSVD test split"
 echo "  project: ${PROJECT_DIR}"
 echo "  data: ${DATA_PATH}"
 echo "  videos: ${VIDEO_PATH}"
