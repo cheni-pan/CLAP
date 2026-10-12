@@ -75,20 +75,3 @@ python main.py \
 ```
 
 Dataset-specific inference launchers are available for MSVD, DiDeMo, ActivityNet, and LSMDC in `scripts/`.
-
-## Bibliography
-
-If you find this repository useful, please consider citing our work:
-
-```bibtex
-@misc{pan2026clap,
-  title  = {CLAP: Cross-Layer Attention Prior Tuning for Text-Video Retrieval},
-  author = {Pan, Zhenyi and Li, Xiangpeng and Ouyang, Deqiang},
-  year   = {2026},
-  note   = {Manuscript}
-}
-```
-
-## Acknowledgements
-
-This codebase builds on [CLIP](https://github.com/openai/CLIP), [CLIP4Clip](https://github.com/ArrowLuo/CLIP4Clip), [Token Merging](https://github.com/facebookresearch/ToMe), and [PAMR](https://github.com/insitro/Position-Aware-Module-for-Refinement).
