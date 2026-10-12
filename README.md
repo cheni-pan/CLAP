@@ -1,6 +1,6 @@
 # <i>CLAP:</i> Cross-Layer Attention Prior Tuning for Text-Video Retrieval
 
-[Zhenyi Pan](https://github.com/cheni-pan), Xiangpeng Li, Deqiang Ouyang
+
 
 [`Code`](https://github.com/cheni-pan/CLIP) | [`BibTeX`](#bibliography)
 
